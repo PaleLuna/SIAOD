@@ -1,0 +1,41 @@
+9.3.1
+001 DPSaA 2
+012 MathAnalysis 1
+011 LinearAlgebra 1
+054 ForeignLanguage 2
+}
+9.9.3
+001 DPSaA 2
+}
+9.1.3
+001 DPSaA 2
+054 ForeignLanguage 1
+}
+5.3.1
+012 MathAnalysis 1
+}
+3.3.1
+012 MathAnalysis 1
+}
+3.0.1
+316 Psychology 3
+}
+1.3.1
+011 LinearAlgebra 1
+}
+1.2.8
+054 ForeignLanguage 1
+099 Biology 2
+}
+0.9.1
+214 Chemistry 3
+054 ForeignLanguage 1
+}
+0.8.0
+023 DoCPoIR 3
+054 ForeignLanguage 3
+316 Psychology 3
+}
+0.4.2
+042 Everything 1
+}

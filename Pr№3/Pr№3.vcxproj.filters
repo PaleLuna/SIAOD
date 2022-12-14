@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Реализация классов">
+      <UniqueIdentifier>{4ea22de2-af13-49bd-bfa5-310940070783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Заголовки классов">
+      <UniqueIdentifier>{c486e16e-8cd2-45ce-a380-05942329b8a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pr№3.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp">
+      <Filter>Исходные файлы\Реализация классов</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.cpp">
+      <Filter>Исходные файлы\Реализация классов</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Исходные файлы\Реализация классов</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionOfStudy.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTest.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextFile.h">
+      <Filter>Файлы заголовков\Заголовки классов</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h">
+      <Filter>Файлы заголовков\Заголовки классов</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Файлы заголовков\Заголовки классов</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionOfStudy.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTest.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Education.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Menu.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

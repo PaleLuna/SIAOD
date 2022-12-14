@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы реализации">
+      <UniqueIdentifier>{ec072567-4008-4cff-a7a1-d4b992cb45b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Task№1">
+      <UniqueIdentifier>{37a4e120-4304-4fae-961c-9a1cd07195a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Task№2">
+      <UniqueIdentifier>{0cc3f98e-0f87-4307-a734-6ecfe2e6677b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы реализации\Task№1">
+      <UniqueIdentifier>{441811ea-924d-49b5-b546-5beaa7fa5e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы реализации\Task№2">
+      <UniqueIdentifier>{592eb3c2-4a11-4158-bdaf-869ab0ffa4ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pr№2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyFile.cpp">
+      <Filter>Файлы реализации\Task№1</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Файлы реализации\Task№1</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFileTest.cpp">
+      <Filter>Файлы реализации\Task№1</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp">
+      <Filter>Файлы реализации\Task№2</Filter>
+    </ClCompile>
+    <ClCompile Include="AcademicLoad.cpp">
+      <Filter>Файлы реализации\Task№2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextFile.h">
+      <Filter>Файлы заголовков\Task№1</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyFile.h">
+      <Filter>Файлы заголовков\Task№1</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFileTest.h">
+      <Filter>Файлы заголовков\Task№1</Filter>
+    </ClInclude>
+    <ClInclude Include="ITest.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Discipline.h">
+      <Filter>Файлы заголовков\Task№2</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h">
+      <Filter>Файлы заголовков\Task№2</Filter>
+    </ClInclude>
+    <ClInclude Include="AcademicLoad.h">
+      <Filter>Файлы заголовков\Task№2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="UIText.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Hello.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="HashTableTest.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Disciplines.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="BinTableTest.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
